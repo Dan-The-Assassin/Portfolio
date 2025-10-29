@@ -6,21 +6,21 @@ import IT from './pages/it'
 import Music from './pages/music'
 import Art from './pages/art'
 import Contact from './pages/contact'
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {HashRouter, Routes, Route} from "react-router-dom"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path = "portfolio" element = {<IT/>}/>
       <Route path ="portfolio/Music" element ={<Music/>}/>
       <Route path ="portfolio/Art" element ={<Art/>}/>
       <Route path ="portfolio/Contact" element ={<Contact/>}/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     {/*<BrowserRouter>
       <Routes>
         <Route path ="/IT" element ={<IT/>}/>
