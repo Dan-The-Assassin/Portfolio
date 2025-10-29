@@ -14,12 +14,12 @@ function App() {
   return (
     <>
     <HashRouter>
-    <Routes>
-      <Route path = "portfolio" element = {<IT/>}/>
-      <Route path ="portfolio/Music" element ={<Music/>}/>
-      <Route path ="portfolio/Art" element ={<Art/>}/>
-      <Route path ="portfolio/Contact" element ={<Contact/>}/>
-    </Routes>
+      <Routes>
+        <Route path = "/" element = {<IT/>}/>
+        <Route path = "/Music" element ={<Music/>}/>
+        <Route path ="/Art" element ={<Art/>}/>
+        <Route path ="/Contact" element ={<Contact/>}/>
+      </Routes>
     </HashRouter>
     {/*<BrowserRouter>
       <Routes>
