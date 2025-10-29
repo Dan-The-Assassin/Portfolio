@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path ="/" element ={<IT/>}/>
+      <Route path ="" element ={<IT/>}/>
       <Route path ="Music" element ={<Music/>}/>
       <Route path ="Art" element ={<Art/>}/>
       <Route path ="Contact" element ={<Contact/>}/>
