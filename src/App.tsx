@@ -6,19 +6,21 @@ import IT from './pages/it'
 import Music from './pages/music'
 import Art from './pages/art'
 import Contact from './pages/contact'
-import {Routes, Route} from "react-router-dom"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Routes>
-      <Route path ="" element ={<IT/>}/>
-      <Route path ="Music" element ={<Music/>}/>
-      <Route path ="Art" element ={<Art/>}/>
-      <Route path ="Contact" element ={<Contact/>}/>
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path ="/" element ={<IT/>}/>
+        <Route path ="Music" element ={<Music/>}/>
+        <Route path ="Art" element ={<Art/>}/>
+        <Route path ="Contact" element ={<Contact/>}/>
+      </Routes>
+    </BrowserRouter>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
