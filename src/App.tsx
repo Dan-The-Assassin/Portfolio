@@ -15,9 +15,9 @@ function App() {
     <>
     <Routes>
       <Route path ="/" element ={<IT/>}/>
-      <Route path ="/Music" element ={<Music/>}/>
-      <Route path ="/Art" element ={<Art/>}/>
-      <Route path ="/Contact" element ={<Contact/>}/>
+      <Route path ="Music" element ={<Music/>}/>
+      <Route path ="Art" element ={<Art/>}/>
+      <Route path ="Contact" element ={<Contact/>}/>
     </Routes>
       <div>
         <a href="https://vite.dev" target="_blank">
