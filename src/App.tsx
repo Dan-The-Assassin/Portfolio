@@ -14,13 +14,18 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Routes>
-        <Route path ="/" element ={<IT/>}/>
-        <Route path ="Music" element ={<Music/>}/>
-        <Route path ="Art" element ={<Art/>}/>
-        <Route path ="Contact" element ={<Contact/>}/>
-      </Routes>
+    <Routes>
+      <Route path = "/portfolio/" element = {<IT/>}/>
+    </Routes>
     </BrowserRouter>
+    {/*<BrowserRouter>
+      <Routes>
+        <Route path ="/IT" element ={<IT/>}/>
+        <Route path ="/Music" element ={<Music/>}/>
+        <Route path ="/Art" element ={<Art/>}/>
+        <Route path ="/Contact" element ={<Contact/>}/>
+      </Routes>
+    </BrowserRouter>*/}
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

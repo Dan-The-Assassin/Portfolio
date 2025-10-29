@@ -6,9 +6,11 @@ function IT() {
 
   return (
     <>
-      <p>
+    <div>
+      <h1>
         This is the programming page
-      </p>
+      </h1>
+      </div>
     </>
   )
 }
