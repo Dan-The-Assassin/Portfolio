@@ -7,12 +7,14 @@ import Music from './pages/music'
 import Art from './pages/art'
 import Contact from './pages/contact'
 import {HashRouter, Routes, Route} from "react-router-dom"
+import pcFrame from './assets/site_frame.png'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <img src={pcFrame} className="pcFrame"></img>
     <HashRouter>
       <Routes>
         <Route path = "/" element = {<IT/>}/>
