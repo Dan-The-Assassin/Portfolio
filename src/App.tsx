@@ -7,15 +7,13 @@ import Music from './pages/music'
 import Art from './pages/art'
 import Contact from './pages/contact'
 import {HashRouter, Routes, Route} from "react-router-dom"
-import pcFrame from './assets/site_frame.png'
+import pcFrame from "./assets/site_frame.png"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className ="mainDiv">
-    <img src={pcFrame} className="pcFrame"></img>
     <HashRouter>
       <Routes>
         <Route path = "/" element = {<IT/>}/>
@@ -52,7 +50,11 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      </div>
+      <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
+      <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
+
+    <img className="pcFrame" src={pcFrame}></img>
+    <button className="itBtn">IT</button>
     </>
   )
 }

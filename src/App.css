@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
+  height:100vh;
+  width:100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -42,11 +42,33 @@
 }
 
 .pcFrame{
-  width: 100%;
-  height: auto;
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100vh;
+  width:100%;
+  margin: 0 auto;
+ /* background-image: url(/src/assets/site_frame.png);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;*/
 }
 
-.mainDiv{
-  display:inline-block;
-  position: relative;
+.itBtn{
+  position:fixed;
+  bottom:-0.1%;
+  right:5%;
+  height:5.5%;
+  width:8.5%;
+  background-image: url(./assets/PCBtn.png);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-color: transparent;
+  font-family: PixelatedFont;
+  font-size:5vh;
+  color:#c7c7dc;
+  text-align: center;
+  line-height: 5.5%;
+  padding: 0px;
 }
