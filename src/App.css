@@ -45,3 +45,8 @@
   width: 100%;
   height: auto;
 }
+
+.mainDiv{
+  display:inline-block;
+  position: relative;
+}

@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <div>
+    <div className ="mainDiv">
     <img src={pcFrame} className="pcFrame"></img>
     <HashRouter>
       <Routes>
