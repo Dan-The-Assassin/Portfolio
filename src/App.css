@@ -57,9 +57,66 @@
 .itBtn{
   position:fixed;
   bottom:-0.1%;
-  right:5%;
+  right:30%;
   height:5.5%;
-  width:8.5%;
+  width:9%;
+  background-image: url(./assets/PCBtn.png);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-color: transparent;
+  font-family: PixelatedFont;
+  font-size:5vh;
+  color:#c7c7dc;
+  text-align: center;
+  line-height: 5.5%;
+  padding: 0px;
+}
+
+.musicBtn{
+  position:fixed;
+  bottom:-0.1%;
+  right:21%;
+  height:5.5%;
+  width:9%;
+  background-image: url(./assets/PCBtn.png);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-color: transparent;
+  font-family: PixelatedFont;
+  font-size:5vh;
+  color:#c7c7dc;
+  text-align: center;
+  line-height: 5.5%;
+  padding: 0px;
+}
+
+.artBtn{
+  position:fixed;
+  bottom:-0.1%;
+  right:12%;
+  height:5.5%;
+  width:9%;
+  background-image: url(./assets/PCBtn.png);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-color: transparent;
+  font-family: PixelatedFont;
+  font-size:5vh;
+  color:#c7c7dc;
+  text-align: center;
+  line-height: 5.5%;
+  padding: 0px;
+}
+
+.contactBtn{
+  position:fixed;
+  bottom:-0.1%;
+  right:3%;
+  height:5.5%;
+  width:9%;
   background-image: url(./assets/PCBtn.png);
   background-position: center;
   background-repeat:no-repeat;

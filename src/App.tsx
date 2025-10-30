@@ -55,6 +55,9 @@ function App() {
 
     <img className="pcFrame" src={pcFrame}></img>
     <button className="itBtn">IT</button>
+        <button className="musicBtn">Music</button>
+            <button className="artBtn">Art</button>
+                <button className="contactBtn">Contact</button>
     </>
   )
 }
