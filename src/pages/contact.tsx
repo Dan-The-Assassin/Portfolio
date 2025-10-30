@@ -6,9 +6,9 @@ function Contact() {
 
   return (
     <>
-      <p>
+      <h1>
         This is the contact page
-      </p>
+      </h1>
     </>
   )
 }

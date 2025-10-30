@@ -8,20 +8,13 @@ import Art from './pages/art'
 import Contact from './pages/contact'
 import {HashRouter, Routes, Route} from "react-router-dom"
 import pcFrame from "./assets/site_frame.png"
+import PcButton from './components/pcButton'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <HashRouter>
-      <Routes>
-        <Route path = "/" element = {<IT/>}/>
-        <Route path = "/Music" element ={<Music/>}/>
-        <Route path ="/Art" element ={<Art/>}/>
-        <Route path ="/Contact" element ={<Contact/>}/>
-      </Routes>
-    </HashRouter>
     {/*<BrowserRouter>
       <Routes>
         <Route path ="/IT" element ={<IT/>}/>
@@ -30,6 +23,20 @@ function App() {
         <Route path ="/Contact" element ={<Contact/>}/>
       </Routes>
     </BrowserRouter>*/}
+    <HashRouter>
+          <div className="Buttons">
+            <PcButton text="IT" path="/"/>
+            <PcButton text="Music" path="/music"/>
+            <PcButton text="Art" path="/art"/>
+            <PcButton text="Contact" path="/contact"/>
+          </div>
+      <Routes>
+        <Route path = "/" element = {<IT/>}/>
+        <Route path = "/Music" element ={<Music/>}/>
+        <Route path ="/Art" element ={<Art/>}/>
+        <Route path ="/Contact" element ={<Contact/>}/>
+      </Routes>
+    </HashRouter>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -54,10 +61,6 @@ function App() {
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
 
     <img className="pcFrame" src={pcFrame}></img>
-    <button className="itBtn">IT</button>
-        <button className="musicBtn">Music</button>
-            <button className="artBtn">Art</button>
-                <button className="contactBtn">Contact</button>
     </>
   )
 }

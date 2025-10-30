@@ -6,9 +6,9 @@ function Music() {
 
   return (
     <>
-      <p>
+      <h1>
         This is the music page
-      </p>
+      </h1>
     </>
   )
 }

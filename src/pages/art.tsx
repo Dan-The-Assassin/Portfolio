@@ -6,9 +6,9 @@ function Art() {
 
   return (
     <>
-      <p>
+      <h1>
         This is the art page
-      </p>
+      </h1>
     </>
   )
 }
