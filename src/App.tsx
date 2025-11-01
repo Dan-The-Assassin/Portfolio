@@ -62,6 +62,7 @@ function App() {
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
     <img className="crtLines" src={crtLines}></img>
     <img className="pcFrame" src={pcFrame}></img>
+    <p className="name">DanTheAssassin</p>
     </>
   )
 }

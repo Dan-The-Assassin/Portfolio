@@ -69,5 +69,12 @@ button:focus-visible {
 
 @font-face {
   font-family: 'PixelatedFont';
+  src: url(./assets/PixelOperatorMono.ttf);
+  font-weight:normal;
+}
+
+@font-face {
+  font-family: 'PixelatedFont';
   src: url(./assets/PixelOperatorMono-Bold.ttf);
+  font-weight:bold;
 }
