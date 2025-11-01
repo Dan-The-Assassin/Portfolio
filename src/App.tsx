@@ -60,8 +60,14 @@ function App() {
       </p>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
-    <img className="crtLines" src={crtLines}></img>
-    <img className="pcFrame" src={pcFrame}></img>
+    <div className="PCEffects">
+      <img className="crtLines" src={crtLines}></img>
+      <div className="blueTint">
+          <div className="screenStatic"></div>
+      </div>
+      <img className="pcFrame" src={pcFrame}></img>
+      <div className="blueGlow"></div>
+    </div>
     <p className="name">DanTheAssassin</p>
     </>
   )
