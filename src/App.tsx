@@ -9,6 +9,7 @@ import Contact from './pages/contact'
 import {HashRouter, Routes, Route} from "react-router-dom"
 import pcFrame from "./assets/site_frame.png"
 import PcButton from './components/pcButton'
+import crtLines from './assets/crtLines.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -59,7 +60,7 @@ function App() {
       </p>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
-
+    <img className="crtLines" src={crtLines}></img>
     <img className="pcFrame" src={pcFrame}></img>
     </>
   )

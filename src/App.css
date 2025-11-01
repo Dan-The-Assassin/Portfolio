@@ -54,6 +54,15 @@
   background-size: 100% 100%;*/
 }
 
+.crtLines{
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100vh;
+  width:100%;
+  margin: 0 auto;
+}
+
 .contactBtn{
   position:fixed;
   bottom:-0.1%;
